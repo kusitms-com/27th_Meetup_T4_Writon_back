@@ -29,7 +29,12 @@ const beforeMainData = async () => {
               emogi: true
             }
           }
-        }
+        },
+        },
+        orderBy: {
+          category: {
+            name: 'asc'
+          }
       })
     ]);
     const category = categoryDB.map((e) => {
